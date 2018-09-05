@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "Consolas, Monaco, 'Courier New', monospace",
+    "editor.fontSize": 18,
+    "files.associations": {
+        "stdio.h": "c",
+        "utmpx.h": "c"
+    },
+    "window.zoomLevel": 0,
+}

@@ -12,7 +12,7 @@ int main(int argc, char const *argv[])
 		do_more(stdin);
 	else
 		while(--argc)
-		if((fp = fopen(* ++argv, "r")) != NULL)
+		if ((fp = fopen(* ++argv, "r")) != NULL)
 		{
 			do_more(fp);
 			fclose(fp);
