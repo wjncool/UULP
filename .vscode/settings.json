@@ -3,7 +3,15 @@
     "editor.fontSize": 18,
     "files.associations": {
         "stdio.h": "c",
-        "utmpx.h": "c"
+        "utmpx.h": "c",
+        "types.h": "c",
+        "dirent.h": "c",
+        "stat.h": "c",
+        "time.h": "c",
+        "unistd.h": "c",
+        "string.h": "c",
+        "fcntl.h": "c"
     },
     "window.zoomLevel": 0,
+    "terminal.integrated.fontSize": 15,
 }

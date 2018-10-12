@@ -4,21 +4,19 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "Build two_sum.cpp",
             "type": "shell",
-            "command": "msbuild",
+            "command": "g++",
             "args": [
-                // Ask msbuild to generate full paths for file names.
-                "/property:GenerateFullPaths=true",
-                "/t:build"
-            ],
-            "group": "build",
-            "presentation": {
-                // Reveal the output only if unrecognized errors occur.
-                "reveal": "silent"
-            },
-            // Use the standard MS compiler pattern to detect errors, warnings and infos
-            "problemMatcher": "$msCompile"
+                "${file}",
+                "-o",
+                "${fileDirname}/${fileBasenameNoExtension}.out",
+                "-g"
+            ],            
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
